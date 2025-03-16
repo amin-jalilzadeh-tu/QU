@@ -1,0 +1,350 @@
+{
+  "version": "1.0",
+  "type": "input",
+  "data": {
+    "node": [
+      {
+        "id": 1,
+        "u_rated": 20000,
+        "extra": "MainSubstation"
+      },
+      {
+        "id": 2,
+        "u_rated": 20000,
+        "extra": "Feeder1"
+      },
+      {
+        "id": 3,
+        "u_rated": 20000,
+        "extra": "Feeder1_LVbranch_1"
+      },
+      {
+        "id": 4,
+        "u_rated": 20000,
+        "extra": "Feeder1_LVbranch_2"
+      },
+      {
+        "id": 5,
+        "u_rated": 20000,
+        "extra": "Feeder2"
+      },
+      {
+        "id": 6,
+        "u_rated": 20000,
+        "extra": "Feeder2_LVbranch_1"
+      },
+      {
+        "id": 7,
+        "u_rated": 20000,
+        "extra": "Feeder2_LVbranch_2"
+      },
+      {
+        "id": 8,
+        "u_rated": 20000,
+        "extra": "Feeder3"
+      },
+      {
+        "id": 9,
+        "u_rated": 20000,
+        "extra": "Feeder3_LVbranch_1"
+      },
+      {
+        "id": 10,
+        "u_rated": 20000,
+        "extra": "Feeder3_LVbranch_2"
+      },
+      {
+        "id": 20,
+        "u_rated": 400,
+        "extra": "B0001"
+      },
+      {
+        "id": 22,
+        "u_rated": 400,
+        "extra": "B0002"
+      },
+      {
+        "id": 24,
+        "u_rated": 400,
+        "extra": "B0003"
+      },
+      {
+        "id": 26,
+        "u_rated": 400,
+        "extra": "B0004"
+      },
+      {
+        "id": 28,
+        "u_rated": 400,
+        "extra": "B0005"
+      },
+      {
+        "id": 30,
+        "u_rated": 400,
+        "extra": "B0006"
+      },
+      {
+        "id": 32,
+        "u_rated": 400,
+        "extra": "B0007"
+      },
+      {
+        "id": 34,
+        "u_rated": 400,
+        "extra": "B0008"
+      },
+      {
+        "id": 36,
+        "u_rated": 400,
+        "extra": "B0009"
+      },
+      {
+        "id": 38,
+        "u_rated": 400,
+        "extra": "B0010"
+      },
+      {
+        "id": 40,
+        "u_rated": 400,
+        "extra": "B0011"
+      },
+      {
+        "id": 42,
+        "u_rated": 400,
+        "extra": "B0012"
+      }
+    ],
+    "line": [
+      {
+        "id": 11,
+        "from_node": 1,
+        "to_node": 2,
+        "r1": 1.0,
+        "x1": 5.0,
+        "i_n": 300
+      },
+      {
+        "id": 12,
+        "from_node": 2,
+        "to_node": 3,
+        "r1": 0.5,
+        "x1": 1.0,
+        "i_n": 300
+      },
+      {
+        "id": 13,
+        "from_node": 2,
+        "to_node": 4,
+        "r1": 0.5,
+        "x1": 1.0,
+        "i_n": 300
+      },
+      {
+        "id": 14,
+        "from_node": 1,
+        "to_node": 5,
+        "r1": 1.0,
+        "x1": 5.0,
+        "i_n": 300
+      },
+      {
+        "id": 15,
+        "from_node": 5,
+        "to_node": 6,
+        "r1": 0.5,
+        "x1": 1.0,
+        "i_n": 300
+      },
+      {
+        "id": 16,
+        "from_node": 5,
+        "to_node": 7,
+        "r1": 0.5,
+        "x1": 1.0,
+        "i_n": 300
+      },
+      {
+        "id": 17,
+        "from_node": 1,
+        "to_node": 8,
+        "r1": 1.0,
+        "x1": 5.0,
+        "i_n": 300
+      },
+      {
+        "id": 18,
+        "from_node": 8,
+        "to_node": 9,
+        "r1": 0.5,
+        "x1": 1.0,
+        "i_n": 300
+      },
+      {
+        "id": 19,
+        "from_node": 8,
+        "to_node": 10,
+        "r1": 0.5,
+        "x1": 1.0,
+        "i_n": 300
+      }
+    ],
+    "link": [
+      {
+        "id": 44,
+        "from_node": 20,
+        "to_node": 10
+      },
+      {
+        "id": 45,
+        "from_node": 22,
+        "to_node": 4
+      },
+      {
+        "id": 46,
+        "from_node": 24,
+        "to_node": 10
+      },
+      {
+        "id": 47,
+        "from_node": 26,
+        "to_node": 4
+      },
+      {
+        "id": 48,
+        "from_node": 28,
+        "to_node": 10
+      },
+      {
+        "id": 49,
+        "from_node": 30,
+        "to_node": 10
+      },
+      {
+        "id": 50,
+        "from_node": 32,
+        "to_node": 10
+      },
+      {
+        "id": 51,
+        "from_node": 34,
+        "to_node": 10
+      },
+      {
+        "id": 52,
+        "from_node": 36,
+        "to_node": 10
+      },
+      {
+        "id": 53,
+        "from_node": 38,
+        "to_node": 4
+      },
+      {
+        "id": 54,
+        "from_node": 40,
+        "to_node": 4
+      },
+      {
+        "id": 55,
+        "from_node": 42,
+        "to_node": 4
+      }
+    ],
+    "source": [
+      {
+        "id": 56,
+        "node": 1,
+        "status": 1,
+        "u_ref": 1.0
+      }
+    ],
+    "sym_load": [
+      {
+        "id": 21,
+        "node": 20,
+        "status": 1,
+        "type": 1,
+        "p_specified": 97300.0
+      },
+      {
+        "id": 23,
+        "node": 22,
+        "status": 1,
+        "type": 1,
+        "p_specified": 191000.0
+      },
+      {
+        "id": 25,
+        "node": 24,
+        "status": 1,
+        "type": 1,
+        "p_specified": 121600.0
+      },
+      {
+        "id": 27,
+        "node": 26,
+        "status": 1,
+        "type": 1,
+        "p_specified": 157300.0
+      },
+      {
+        "id": 29,
+        "node": 28,
+        "status": 1,
+        "type": 1,
+        "p_specified": 21700.0
+      },
+      {
+        "id": 31,
+        "node": 30,
+        "status": 1,
+        "type": 1,
+        "p_specified": 111300.0
+      },
+      {
+        "id": 33,
+        "node": 32,
+        "status": 1,
+        "type": 1,
+        "p_specified": 71600.0
+      },
+      {
+        "id": 35,
+        "node": 34,
+        "status": 1,
+        "type": 1,
+        "p_specified": 189400.0
+      },
+      {
+        "id": 37,
+        "node": 36,
+        "status": 1,
+        "type": 1,
+        "p_specified": 107000.0
+      },
+      {
+        "id": 39,
+        "node": 38,
+        "status": 1,
+        "type": 1,
+        "p_specified": 53300.0
+      },
+      {
+        "id": 41,
+        "node": 40,
+        "status": 1,
+        "type": 1,
+        "p_specified": 146400.0
+      },
+      {
+        "id": 43,
+        "node": 42,
+        "status": 1,
+        "type": 1,
+        "p_specified": 66500.0
+      }
+    ],
+    "asym_load": [],
+    "shunt": []
+  }
+}

@@ -1,0 +1,6 @@
+C:\Users\aminj\OneDrive\Desktop\Qui\QU\building_assignments.csv
+C:\Users\aminj\OneDrive\Desktop\Qui\QU\buildings_demo.csv
+C:\Users\aminj\OneDrive\Desktop\Qui\QU\feeders.csv
+C:\Users\aminj\OneDrive\Desktop\Qui\QU\lines_demo.csv
+C:\Users\aminj\OneDrive\Desktop\Qui\QU\time_series_loads.csv
+C:\Users\aminj\OneDrive\Desktop\Qui\QU\time_series_long.csv

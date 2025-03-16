@@ -1,0 +1,10 @@
+line_id,from_id,to_id,length_km,voltage_level
+L0001,MainSubstation,Feeder1,3.065,MV
+L0002,Feeder1,Feeder1_LVbranch_1,0.14,LV
+L0003,Feeder1,Feeder1_LVbranch_2,0.28,LV
+L0004,MainSubstation,Feeder2,5.9296,MV
+L0005,Feeder2,Feeder2_LVbranch_1,0.14,LV
+L0006,Feeder2,Feeder2_LVbranch_2,0.28,LV
+L0007,MainSubstation,Feeder3,4.9991,MV
+L0008,Feeder3,Feeder3_LVbranch_1,0.1399,LV
+L0009,Feeder3,Feeder3_LVbranch_2,0.2798,LV

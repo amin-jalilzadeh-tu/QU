@@ -1,0 +1,1129 @@
+=== File: dhw_lookup.xlsx ===
+
+--- Column: calibration_stage ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: pre_calibration | Count: 15
+   Value: post_calibration | Count: 15
+
+--- Column: dhw_key ---
+Total unique values: 15
+Top 5 most frequent values:
+   Value: Corner House | Count: 2
+   Value: Apartment | Count: 2
+   Value: Terrace or Semi-detached House | Count: 2
+   Value: Detached House | Count: 2
+   Value: Two-and-a-half-story House | Count: 2
+
+--- Column: occupant_density_m2_per_person_min ---
+Total unique values: 12
+Top 5 most frequent values:
+   Value: 8.0 | Count: 3
+   Value: 10.0 | Count: 3
+   Value: 15.0 | Count: 3
+   Value: 20.0 | Count: 3
+   Value: 12.0 | Count: 2
+
+--- Column: occupant_density_m2_per_person_max ---
+Total unique values: 13
+Top 5 most frequent values:
+   Value: 20.0 | Count: 4
+   Value: 30.0 | Count: 3
+   Value: 10.0 | Count: 3
+   Value: 15.0 | Count: 3
+   Value: 35.0 | Count: 1
+
+--- Column: liters_per_person_per_day_min ---
+Total unique values: 13
+Top 5 most frequent values:
+   Value: 50 | Count: 5
+   Value: 10 | Count: 4
+   Value: 45 | Count: 3
+   Value: 5 | Count: 3
+   Value: 60 | Count: 3
+
+--- Column: liters_per_person_per_day_max ---
+Total unique values: 14
+Top 5 most frequent values:
+   Value: 55 | Count: 4
+   Value: 60 | Count: 4
+   Value: 50 | Count: 3
+   Value: 10 | Count: 3
+   Value: 6 | Count: 2
+
+--- Column: default_tank_volume_liters_min ---
+Total unique values: 13
+Top 5 most frequent values:
+   Value: 250 | Count: 4
+   Value: 1000 | Count: 4
+   Value: 300 | Count: 4
+   Value: 400 | Count: 3
+   Value: 500 | Count: 3
+
+--- Column: default_tank_volume_liters_max ---
+Total unique values: 16
+Top 5 most frequent values:
+   Value: 350 | Count: 3
+   Value: 600 | Count: 3
+   Value: 3000 | Count: 3
+   Value: 2000 | Count: 3
+   Value: 300 | Count: 3
+
+--- Column: default_heater_capacity_w_min ---
+Total unique values: 16
+Top 5 most frequent values:
+   Value: 4000 | Count: 4
+   Value: 20000 | Count: 4
+   Value: 10000 | Count: 4
+   Value: 9000 | Count: 3
+   Value: 3500 | Count: 2
+
+--- Column: default_heater_capacity_w_max ---
+Total unique values: 16
+Top 5 most frequent values:
+   Value: 5000 | Count: 4
+   Value: 40000 | Count: 3
+   Value: 30000 | Count: 3
+   Value: 10000 | Count: 3
+   Value: 4500 | Count: 2
+
+--- Column: setpoint_c_min ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 58 | Count: 15
+   Value: 60 | Count: 14
+   Value: 65 | Count: 1
+
+--- Column: setpoint_c_max ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 60 | Count: 27
+   Value: 65 | Count: 2
+   Value: 62 | Count: 1
+
+--- Column: usage_split_factor_min ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 0.6 | Count: 22
+   Value: 0.5 | Count: 6
+   Value: 0.7 | Count: 2
+
+--- Column: usage_split_factor_max ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 0.6 | Count: 13
+   Value: 0.8 | Count: 9
+   Value: 0.7 | Count: 8
+
+--- Column: peak_hours_min ---
+Total unique values: 4
+Top 5 most frequent values:
+   Value: 2.0 | Count: 24
+   Value: 2.5 | Count: 3
+   Value: 1.5 | Count: 2
+   Value: 3.0 | Count: 1
+
+--- Column: peak_hours_max ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 3.0 | Count: 13
+   Value: 2.0 | Count: 11
+   Value: 2.5 | Count: 6
+
+--- Column: sched_morning_min ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: 0.2 | Count: 9
+   Value: 0.1 | Count: 6
+   Value: 0.7 | Count: 5
+   Value: 0.6 | Count: 4
+   Value: 0.3 | Count: 4
+
+--- Column: sched_morning_max ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: 0.2 | Count: 7
+   Value: 0.3 | Count: 7
+   Value: 0.7 | Count: 6
+   Value: 0.8 | Count: 4
+   Value: 0.4 | Count: 4
+
+--- Column: sched_peak_min ---
+Total unique values: 6
+Top 5 most frequent values:
+   Value: 0.6 | Count: 9
+   Value: 0.9 | Count: 5
+   Value: 0.7 | Count: 5
+   Value: 1.0 | Count: 5
+   Value: 0.5 | Count: 4
+
+--- Column: sched_peak_max ---
+Total unique values: 5
+Top 5 most frequent values:
+   Value: 0.7 | Count: 9
+   Value: 1.0 | Count: 6
+   Value: 1.1 | Count: 5
+   Value: 0.8 | Count: 5
+   Value: 0.6 | Count: 5
+
+--- Column: sched_afternoon_min ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 0.2 | Count: 23
+   Value: 0.3 | Count: 5
+   Value: 0.1 | Count: 2
+
+--- Column: sched_afternoon_max ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 0.4 | Count: 12
+   Value: 0.2 | Count: 10
+   Value: 0.3 | Count: 8
+
+--- Column: sched_evening_min ---
+Total unique values: 8
+Top 5 most frequent values:
+   Value: 0.5 | Count: 7
+   Value: 0.1 | Count: 6
+   Value: 0.8 | Count: 5
+   Value: 0.6 | Count: 3
+   Value: 0.2 | Count: 3
+
+--- Column: sched_evening_max ---
+Total unique values: 9
+Top 5 most frequent values:
+   Value: 0.8 | Count: 6
+   Value: 0.3 | Count: 5
+   Value: 0.5 | Count: 4
+   Value: 0.9 | Count: 3
+   Value: 0.6 | Count: 3
+
+
+
+=== File: elec_schedules.xlsx ===
+
+--- Column: building_category ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: Residential | Count: 10
+
+--- Column: building_subtype ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: Corner House | Count: 8
+   Value: Apartment | Count: 2
+
+--- Column: day_type ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: weekday | Count: 7
+   Value: weekend | Count: 3
+
+--- Column: start_hour ---
+Total unique values: 5
+Top 5 most frequent values:
+   Value: 0 | Count: 3
+   Value: 6 | Count: 2
+   Value: 8 | Count: 2
+   Value: 22 | Count: 2
+   Value: 17 | Count: 1
+
+--- Column: end_hour ---
+Total unique values: 5
+Top 5 most frequent values:
+   Value: 8 | Count: 3
+   Value: 6 | Count: 2
+   Value: 22 | Count: 2
+   Value: 24 | Count: 2
+   Value: 17 | Count: 1
+
+--- Column: fraction ---
+Total unique values: 6
+Top 5 most frequent values:
+   Value: 0.05 | Count: 3
+   Value: 0.1 | Count: 3
+   Value: 0.3 | Count: 1
+   Value: 0.5 | Count: 1
+   Value: 0.4 | Count: 1
+
+
+
+=== File: envelop_nonres5.xlsx ===
+
+--- Column: building_function ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: Non-Residential | Count: 1960
+
+--- Column: building_type ---
+Total unique values: 10
+Top 5 most frequent values:
+   Value: Accommodation Function | Count: 196
+   Value: Cell Function | Count: 196
+   Value: Education Function | Count: 196
+   Value: Healthcare Function | Count: 196
+   Value: Industrial Function | Count: 196
+
+--- Column: year_range ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: < 1945 | Count: 280
+   Value: 1945 - 1964 | Count: 280
+   Value: 1965 - 1974 | Count: 280
+   Value: 1975 - 1991 | Count: 280
+   Value: 1992 - 2005 | Count: 280
+
+--- Column: scenario ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: scenario1 | Count: 980
+   Value: scenario2 | Count: 980
+
+--- Column: calibration_stage ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: pre_calibration | Count: 980
+   Value: post_calibration | Count: 980
+
+--- Column: element ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: doors | Count: 280
+   Value: exterior_wall | Count: 280
+   Value: flat_roof | Count: 280
+   Value: ground_floor | Count: 280
+   Value: inter_floor | Count: 280
+
+--- Column: area_m2 ---
+Total unique values: 101
+Top 5 most frequent values:
+   Value: 60.0 | Count: 292
+   Value: 50.0 | Count: 288
+   Value: 130.0 | Count: 52
+   Value: 100.0 | Count: 44
+   Value: 75.0 | Count: 44
+
+--- Column: R_value_min ---
+Total unique values: 21
+Top 5 most frequent values:
+   Value: - | Count: 560
+   Value: 2 | Count: 280
+   Value: 1.5 | Count: 280
+   Value: 3 | Count: 132
+   Value: 3.8 | Count: 102
+
+--- Column: R_value_max ---
+Total unique values: 21
+Top 5 most frequent values:
+   Value: - | Count: 560
+   Value: 2 | Count: 280
+   Value: 1.5 | Count: 280
+   Value: 3 | Count: 132
+   Value: 3.8 | Count: 102
+
+--- Column: U_value_min ---
+Total unique values: 49
+Top 5 most frequent values:
+   Value: 0.5 | Count: 286
+   Value: 0.67 | Count: 280
+   Value: 2.5 | Count: 88
+   Value: 0.25 | Count: 82
+   Value: 2.7 | Count: 80
+
+--- Column: U_value_max ---
+Total unique values: 49
+Top 5 most frequent values:
+   Value: 0.5 | Count: 286
+   Value: 0.67 | Count: 280
+   Value: 2.5 | Count: 88
+   Value: 0.25 | Count: 82
+   Value: 2.7 | Count: 80
+
+--- Column: roughness ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: MediumRough | Count: 1960
+
+--- Column: material_opaque_lookup ---
+Total unique values: 6
+Top 5 most frequent values:
+   Value: DoorPanel_Range | Count: 560
+   Value: Concrete_200mm | Count: 280
+   Value: Insulated_Roof_R5 | Count: 280
+   Value: GroundContactFloor_Generic | Count: 280
+   Value: InternalFloor_Generic | Count: 280
+
+--- Column: material_window_lookup ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: Glazing_Clear_3mm | Count: 1400
+
+--- Column: min_wwr ---
+Total unique values: 22
+Top 5 most frequent values:
+   Value: 0.0 | Count: 560
+   Value: 0.19 | Count: 160
+   Value: 0.2 | Count: 150
+   Value: 0.18 | Count: 138
+   Value: 0.17 | Count: 108
+
+--- Column: max_wwr ---
+Total unique values: 27
+Top 5 most frequent values:
+   Value: 0.0 | Count: 560
+   Value: 0.24 | Count: 148
+   Value: 0.25 | Count: 142
+   Value: 0.23 | Count: 110
+   Value: 0.26 | Count: 84
+
+
+
+=== File: envelop_res5.xlsx ===
+
+--- Column: building_function ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: residential | Count: 2462
+
+--- Column: building_type ---
+Total unique values: 5
+Top 5 most frequent values:
+   Value: Two-and-a-half-story House | Count: 502
+   Value: Apartment | Count: 490
+   Value: Corner House | Count: 490
+   Value: Detached House | Count: 490
+   Value: Terrace or Semi-detached House | Count: 490
+
+--- Column: year_range ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: 1945 - 1964 | Count: 352
+   Value: 1965 - 1974 | Count: 352
+   Value: 1975 - 1991 | Count: 352
+   Value: 1992 - 2005 | Count: 352
+   Value: 2006 - 2014 | Count: 352
+
+--- Column: scenario ---
+Total unique values: 5
+Top 5 most frequent values:
+   Value: scenario1 | Count: 502
+   Value: scenario2 | Count: 490
+   Value: scenario3 | Count: 490
+   Value: scenario4 | Count: 490
+   Value: scenario5 | Count: 490
+
+--- Column: calibration_stage ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: pre_calibration | Count: 1231
+   Value: post_calibration | Count: 1231
+
+--- Column: element ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: doors | Count: 362
+   Value: exterior_wall | Count: 350
+   Value: flat_roof | Count: 350
+   Value: ground_floor | Count: 350
+   Value: inter_floor | Count: 350
+
+--- Column: area_m2 ---
+Total unique values: 106
+Top 5 most frequent values:
+   Value: 50.0 | Count: 370
+   Value: 60.0 | Count: 350
+   Value: 19.86 | Count: 60
+   Value: 57.25 | Count: 50
+   Value: 5.08 | Count: 30
+
+--- Column: R_value_min ---
+Total unique values: 20
+Top 5 most frequent values:
+   Value: - | Count: 712
+   Value: 2 | Count: 350
+   Value: 1.5 | Count: 350
+   Value: 2.5 | Count: 350
+   Value: 3.5 | Count: 238
+
+--- Column: R_value_max ---
+Total unique values: 29
+Top 5 most frequent values:
+   Value: - | Count: 712
+   Value: 2 | Count: 350
+   Value: 1.5 | Count: 350
+   Value: 2.5 | Count: 280
+   Value: 3.5 | Count: 238
+
+--- Column: U_value_min ---
+Total unique values: 26
+Top 5 most frequent values:
+   Value: 0.5 | Count: 350
+   Value: 0.67 | Count: 350
+   Value: 0.27 | Count: 282
+   Value: 3.4 | Count: 258
+   Value: 1.4 | Count: 250
+
+--- Column: U_value_max ---
+Total unique values: 25
+Top 5 most frequent values:
+   Value: 0.5 | Count: 350
+   Value: 0.67 | Count: 350
+   Value: 0.27 | Count: 280
+   Value: 3.4 | Count: 258
+   Value: 1.4 | Count: 238
+
+--- Column: roughness ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: MediumRough | Count: 2462
+
+--- Column: material_opaque_lookup ---
+Total unique values: 6
+Top 5 most frequent values:
+   Value: DoorPanel_Range | Count: 702
+   Value: Concrete_200mm | Count: 354
+   Value: Insulated_Roof_R5 | Count: 352
+   Value: GroundContactFloor_Generic | Count: 352
+   Value: InternalFloor_Generic | Count: 352
+
+--- Column: material_window_lookup ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: Glazing_Clear_3mm | Count: 1760
+
+--- Column: min_wwr ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 0.2 | Count: 882
+   Value: 0.22 | Count: 880
+   Value: 0.0 | Count: 700
+
+--- Column: max_wwr ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 0.25 | Count: 882
+   Value: 0.22 | Count: 880
+   Value: 0.0 | Count: 700
+
+
+
+=== File: epw_lookup.xlsx ===
+
+--- Column: file_path ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: C:/Users/aminj/OneDrive/Desktop/EnergyPlus/Weather/2018.epw | Count: 1
+   Value: C:/Users/aminj/OneDrive/Desktop/EnergyPlus/Weather/2020.epw | Count: 1
+   Value: C:/Users/aminj/OneDrive/Desktop/EnergyPlus/Weather/2050.epw | Count: 1
+
+--- Column: year ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 2018 | Count: 1
+   Value: 2020 | Count: 1
+   Value: 2050 | Count: 1
+
+--- Column: lat ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 52.12 | Count: 1
+   Value: 52.15 | Count: 1
+   Value: 52.1 | Count: 1
+
+--- Column: lon ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: 4.43 | Count: 1
+   Value: 4.4 | Count: 1
+   Value: 4.48 | Count: 1
+
+
+
+=== File: geometry_lookup.xlsx ===
+
+--- Column: building_function ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: non_residential | Count: 20
+   Value: residential | Count: 12
+
+--- Column: building_type ---
+Total unique values: 16
+Top 5 most frequent values:
+   Value: Corner House | Count: 2
+   Value: Apartment | Count: 2
+   Value: Terrace or Semi-detached House | Count: 2
+   Value: Detached House | Count: 2
+   Value: Two-and-a-half-story House | Count: 2
+
+--- Column: min_area ---
+Total unique values: 11
+Top 5 most frequent values:
+   Value: 0 | Count: 16
+   Value: 300 | Count: 3
+   Value: 200 | Count: 2
+   Value: 250 | Count: 2
+   Value: 500 | Count: 2
+
+--- Column: max_area ---
+Total unique values: 16
+Top 5 most frequent values:
+   Value: 500 | Count: 5
+   Value: 600 | Count: 4
+   Value: 400 | Count: 3
+   Value: 300 | Count: 3
+   Value: 200 | Count: 2
+
+--- Column: min_perimeter ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: 0 | Count: 32
+
+--- Column: max_perimeter ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: 9999 | Count: 32
+
+--- Column: perimeter_depth_min ---
+Total unique values: 11
+Top 5 most frequent values:
+   Value: 2.5 | Count: 10
+   Value: 2.0 | Count: 8
+   Value: 3.0 | Count: 3
+   Value: 1.8 | Count: 2
+   Value: 2.3 | Count: 2
+
+--- Column: perimeter_depth_max ---
+Total unique values: 8
+Top 5 most frequent values:
+   Value: 2.5 | Count: 10
+   Value: 3.0 | Count: 9
+   Value: 3.5 | Count: 3
+   Value: 2.3 | Count: 2
+   Value: 2.8 | Count: 2
+
+--- Column: has_core_value ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: True | Count: 20
+   Value: False | Count: 12
+
+--- Column: calibration_stage ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: pre_calibration | Count: 16
+   Value: post_calibration | Count: 16
+
+
+
+=== File: groundtemp_lookup.xlsx ===
+
+--- Column: scenario ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: pre_calibration | Count: 12
+   Value: post_calibration | Count: 12
+
+--- Column: month ---
+Total unique values: 12
+Top 5 most frequent values:
+   Value: January | Count: 2
+   Value: February | Count: 2
+   Value: March | Count: 2
+   Value: April | Count: 2
+   Value: May | Count: 2
+
+--- Column: temp_min ---
+Total unique values: 23
+Top 5 most frequent values:
+   Value: 4.0 | Count: 2
+   Value: 2.0 | Count: 1
+   Value: 2.61 | Count: 1
+   Value: 10.4 | Count: 1
+   Value: 15.63 | Count: 1
+
+--- Column: temp_max ---
+Total unique values: 23
+Top 5 most frequent values:
+   Value: 5.0 | Count: 2
+   Value: 3.0 | Count: 1
+   Value: 4.82 | Count: 1
+   Value: 7.99 | Count: 1
+   Value: 10.4 | Count: 1
+
+
+
+=== File: hvac_lookup.xlsx ===
+
+--- Column: Calib Stage ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: pre_calibration | Count: 104
+
+--- Column: Scenario ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: scenario1 | Count: 104
+
+--- Column: Build Func ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: non_residential | Count: 69
+   Value: residential | Count: 35
+
+--- Column: Subtype ---
+Total unique values: 15
+Top 5 most frequent values:
+   Value: Corner House | Count: 7
+   Value: Apartment | Count: 7
+   Value: Terrace or Semi-detached House | Count: 7
+   Value: Detached House | Count: 7
+   Value: Two-and-a-half-story House | Count: 7
+
+--- Column: Age Range ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: 2015 and later | Count: 15
+   Value: 2006 - 2014 | Count: 15
+   Value: 1992 - 2005 | Count: 15
+   Value: 1975 - 1991 | Count: 15
+   Value: 1965 - 1974 | Count: 15
+
+--- Column: heating_day_setpoint_range ---
+Total unique values: 13
+Top 5 most frequent values:
+   Value: (20.0, 21.0) | Count: 30
+   Value: (19.0, 20.0) | Count: 12
+   Value: (19.5, 20.5) | Count: 12
+   Value: (19.0, 21.0) | Count: 10
+   Value: (20.5, 21.5) | Count: 9
+
+--- Column: heating_night_setpoint_range ---
+Total unique values: 11
+Top 5 most frequent values:
+   Value: (16.0, 16.0) | Count: 31
+   Value: (15.0, 16.0) | Count: 28
+   Value: (15.5, 16.0) | Count: 18
+   Value: (17.0, 17.0) | Count: 6
+   Value: (15.0, 15.5) | Count: 5
+
+--- Column: cooling_day_setpoint_range ---
+Total unique values: 13
+Top 5 most frequent values:
+   Value: (24.0, 25.0) | Count: 27
+   Value: (24.0, 26.0) | Count: 15
+   Value: (23.5, 24.5) | Count: 14
+   Value: (23.0, 24.0) | Count: 10
+   Value: (24.5, 25.5) | Count: 9
+
+--- Column: cooling_night_setpoint_range ---
+Total unique values: 11
+Top 5 most frequent values:
+   Value: (26.0, 27.0) | Count: 28
+   Value: (26.0, 28.0) | Count: 25
+   Value: (25.5, 26.5) | Count: 13
+   Value: (25.0, 26.0) | Count: 9
+   Value: (26.5, 27.5) | Count: 9
+
+--- Column: max_heating_supply_air_temp_range ---
+Total unique values: 13
+Top 5 most frequent values:
+   Value: (45.0, 55.0) | Count: 30
+   Value: (60.0, 70.0) | Count: 11
+   Value: (65.0, 70.0) | Count: 10
+   Value: (60.0, 65.0) | Count: 10
+   Value: (62.0, 68.0) | Count: 7
+
+--- Column: min_cooling_supply_air_temp_range ---
+Total unique values: 4
+Top 5 most frequent values:
+   Value: (12.0, 14.0) | Count: 70
+   Value: (13.0, 15.0) | Count: 21
+   Value: (12.5, 14.0) | Count: 7
+   Value: (12.0, 13.5) | Count: 6
+
+--- Column: schedule_details ---
+Total unique values: 29
+Top 5 most frequent values:
+   Value: day_start=07:00; day_end=23:00; occ: weekday=FullOccupancy, weekend=FullOccupancy | Count: 30
+   Value: wd_start=07:00; wd_end=21:00; we_start=08:00; we_end=18:00; occ: wd=Healthcare_Weekday, we=Healthcare_Weekend | Count: 5
+   Value: wd_start=09:00; wd_end=20:00; we_start=09:00; we_end=18:00; occ: wd=Sport_Weekday, we=Sport_Weekend | Count: 5
+   Value: wd_start=08:00; wd_end=19:00; we_start=09:00; we_end=17:00; occ: wd=Cell_Weekday, we=Cell_Weekend | Count: 5
+   Value: day_start=06:00; day_end=22:00; occ: weekday=FullOccupancy, weekend=FullOccupancy | Count: 5
+
+
+
+=== File: lighting_lookup.xlsx ===
+
+--- Column: Calibration Stage ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: Pre-calibration | Count: 15
+   Value: Post-calibration | Count: 15
+
+--- Column: Category ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: Non-Residential | Count: 20
+   Value: Residential | Count: 10
+
+--- Column: Sub-Type/Function ---
+Total unique values: 15
+Top 5 most frequent values:
+   Value: Corner House | Count: 2
+   Value: Apartment | Count: 2
+   Value: Terrace or Semi-detached House | Count: 2
+   Value: Detached House | Count: 2
+   Value: Two-and-a-half-story House | Count: 2
+
+--- Column: LIGHTS_WM2_range ---
+Total unique values: 12
+Top 5 most frequent values:
+   Value: (0.0, 0.0) | Count: 10
+   Value: (16.0, 18.0) | Count: 5
+   Value: (17.0, 17.0) | Count: 5
+   Value: (16.0, 16.0) | Count: 2
+   Value: (17.0, 19.0) | Count: 1
+
+--- Column: PARASITIC_WM2_range ---
+Total unique values: 6
+Top 5 most frequent values:
+   Value: (0.0, 0.0) | Count: 10
+   Value: (0.285, 0.285) | Count: 9
+   Value: (0.28, 0.30) | Count: 8
+   Value: (0.28, 0.31) | Count: 1
+   Value: (0.28, 0.29) | Count: 1
+
+--- Column: tD_range ---
+Total unique values: 11
+Top 5 most frequent values:
+   Value: (0, 0) | Count: 10
+   Value: (2200, 2200) | Count: 5
+   Value: (2100, 2300) | Count: 4
+   Value: (4000, 4000) | Count: 3
+   Value: (3800, 4200) | Count: 2
+
+--- Column: tN_range ---
+Total unique values: 12
+Top 5 most frequent values:
+   Value: (0, 0) | Count: 10
+   Value: (300, 300) | Count: 5
+   Value: (300, 400) | Count: 3
+   Value: (1000, 1000) | Count: 3
+   Value: (900, 1100) | Count: 2
+
+--- Column: lights_fraction_radiant_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (0.7, 0.7) | Count: 30
+
+--- Column: lights_fraction_visible_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (0.2, 0.2) | Count: 30
+
+--- Column: lights_fraction_replaceable_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (1.0, 1.0) | Count: 30
+
+--- Column: equip_fraction_radiant_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (0.0, 0.0) | Count: 30
+
+--- Column: equip_fraction_lost_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (1.0, 1.0) | Count: 30
+
+
+
+=== File: materials.xlsx ===
+
+--- Column: Key ---
+Total unique values: 12
+Top 5 most frequent values:
+   Value: Concrete_200mm | Count: 1
+   Value: GroundContactFloor_Generic | Count: 1
+   Value: InternalFloor_Generic | Count: 1
+   Value: Insulated_Roof_R5 | Count: 1
+   Value: InteriorWall_Generic | Count: 1
+
+--- Column: Obj Type ---
+Total unique values: 3
+Top 5 most frequent values:
+   Value: MATERIAL | Count: 10
+   Value: WINDOWMATERIAL:GLAZING | Count: 2
+   Value: MATERIAL:NOMASS | Count: 1
+
+--- Column: Name ---
+Total unique values: 13
+Top 5 most frequent values:
+   Value: Not_Applicable | Count: 1
+   Value: Concrete_200mm | Count: 1
+   Value: GroundContactFloor_Generic | Count: 1
+   Value: InternalFloor_Generic | Count: 1
+   Value: Insulated_Roof_R5 | Count: 1
+
+--- Column: Description ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: Placeholder for assemblies that have no relevant opaque or window material. | Count: 1
+
+--- Column: Roughness ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: MediumRough | Count: 6
+   Value: MediumSmooth | Count: 4
+
+--- Column: Thickness_range ---
+Total unique values: 9
+Top 5 most frequent values:
+   Value: (0.003, 0.003) | Count: 2
+   Value: (0.04, 0.05) | Count: 2
+   Value: (0.195, 0.205) | Count: 1
+   Value: (0.10, 0.12) | Count: 1
+   Value: (0.12, 0.15) | Count: 1
+
+--- Column: Conductivity_range ---
+Total unique values: 11
+Top 5 most frequent values:
+   Value: (1.5, 1.7) | Count: 1
+   Value: (1.0, 1.2) | Count: 1
+   Value: (0.7, 1.2) | Count: 1
+   Value: (0.4, 0.6) | Count: 1
+   Value: (1.4, 1.7) | Count: 1
+
+--- Column: Density_range ---
+Total unique values: 8
+Top 5 most frequent values:
+   Value: (600, 700) | Count: 2
+   Value: (2250, 2350) | Count: 1
+   Value: (2100, 2300) | Count: 1
+   Value: (1800, 2000) | Count: 1
+   Value: (700, 900) | Count: 1
+
+--- Column: Specific_Heat_range ---
+Total unique values: 8
+Top 5 most frequent values:
+   Value: (1400, 1500) | Count: 2
+   Value: (850, 950) | Count: 1
+   Value: (850, 900) | Count: 1
+   Value: (800, 900) | Count: 1
+   Value: (800, 1000) | Count: 1
+
+--- Column: Thermal_Absorptance_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (0.9, 0.9) | Count: 10
+
+--- Column: Solar_Absorptance_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (0.7, 0.7) | Count: 10
+
+--- Column: Visible_Absorptance_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (0.7, 0.7) | Count: 10
+
+--- Column: Thermal_Resistance_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (4.0, 5.0) | Count: 1
+
+--- Column: Optical_Data_Type ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: SpectralAverage | Count: 2
+
+--- Column: Solar_Transmittance_range ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: (0.76, 0.78) | Count: 1
+   Value: (0.75, 0.75) | Count: 1
+
+--- Column: Front_Solar_Reflectance_range ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: (0.07, 0.08) | Count: 1
+   Value: (0.07, 0.07) | Count: 1
+
+--- Column: Back_Solar_Reflectance_range ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: (0.07, 0.08) | Count: 1
+   Value: (0.07, 0.07) | Count: 1
+
+--- Column: Visible_Transmittance_range ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: (0.86, 0.88) | Count: 1
+   Value: (0.85, 0.85) | Count: 1
+
+--- Column: Front_Visible_Reflectance_range ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: (0.06, 0.07) | Count: 1
+   Value: (0.07, 0.07) | Count: 1
+
+--- Column: Back_Visible_Reflectance_range ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: (0.06, 0.07) | Count: 1
+   Value: (0.07, 0.07) | Count: 1
+
+--- Column: IR_Transmittance ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: 0.0 | Count: 2
+
+--- Column: Front_IR_Emissivity_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (0.84, 0.84) | Count: 2
+
+--- Column: Back_IR_Emissivity_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (0.84, 0.84) | Count: 2
+
+--- Column: Dirt_Correction_Factor_range ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: (1.0, 1.0) | Count: 2
+
+--- Column: Solar_Diffusing ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: No | Count: 2
+
+
+
+=== File: Vent_lookup.xlsx ===
+
+--- Column: Scenario ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: scenario1 | Count: 238
+   Value: scenario2 | Count: 238
+
+--- Column: Calibration ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: pre_calibration | Count: 238
+   Value: post_calibration | Count: 238
+
+--- Column: Category ---
+Total unique values: 2
+Top 5 most frequent values:
+   Value: non_residential | Count: 308
+   Value: residential | Count: 168
+
+--- Column: Year Range ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: < 1945 | Count: 68
+   Value: 1945 - 1964 | Count: 68
+   Value: 1965 - 1974 | Count: 68
+   Value: 1975 - 1991 | Count: 68
+   Value: 1992 - 2005 | Count: 68
+
+--- Column: Building/Function Type ---
+Total unique values: 17
+Top 5 most frequent values:
+   Value: Corner House | Count: 28
+   Value: Cell Function | Count: 28
+   Value: Other Use Function | Count: 28
+   Value: Education Function | Count: 28
+   Value: Office Function | Count: 28
+
+--- Column: Inf Min ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: 0.6 | Count: 196
+   Value: 0.7 | Count: 84
+   Value: 1.3 | Count: 56
+   Value: 1.1 | Count: 56
+   Value: 0.9 | Count: 28
+
+--- Column: Inf Max ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: 0.6 | Count: 196
+   Value: 0.7 | Count: 84
+   Value: 1.3 | Count: 56
+   Value: 1.1 | Count: 56
+   Value: 0.9 | Count: 28
+
+--- Column: Year Fac Min ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: 2.2 | Count: 68
+   Value: 1.9 | Count: 68
+   Value: 1.6 | Count: 68
+   Value: 1.4 | Count: 68
+   Value: 1.2 | Count: 68
+
+--- Column: Year Fac Max ---
+Total unique values: 7
+Top 5 most frequent values:
+   Value: 2.2 | Count: 68
+   Value: 1.9 | Count: 68
+   Value: 1.6 | Count: 68
+   Value: 1.4 | Count: 68
+   Value: 1.2 | Count: 68
+
+--- Column: System Ctrl Letter ---
+Total unique values: 4
+Top 5 most frequent values:
+   Value: C | Count: 128
+   Value: B | Count: 108
+   Value: D | Count: 96
+   Value: A | Count: 88
+
+--- Column: Sys Ctrl Min ---
+Total unique values: 5
+Top 5 most frequent values:
+   Value: 0.85 | Count: 140
+   Value: 1.0 | Count: 128
+   Value: 0.65 | Count: 76
+   Value: 0.8 | Count: 56
+   Value: 0.57 | Count: 20
+
+--- Column: Sys Ctrl Max ---
+Total unique values: 5
+Top 5 most frequent values:
+   Value: 0.85 | Count: 140
+   Value: 1.0 | Count: 128
+   Value: 0.65 | Count: 76
+   Value: 0.8 | Count: 56
+   Value: 0.57 | Count: 20
+
+--- Column: FanP Res Mech ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: 50.0 | Count: 168
+
+--- Column: FanP Nonres Intake ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: 100.0 | Count: 308
+
+--- Column: FanP Nonres Exhaust ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: 150.0 | Count: 308
+
+--- Column: HRV Min ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: 0.75 | Count: 476
+
+--- Column: HRV Max ---
+Total unique values: 1
+Top 5 most frequent values:
+   Value: 0.75 | Count: 476
+
+
