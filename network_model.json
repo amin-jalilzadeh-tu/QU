@@ -207,7 +207,7 @@
       {
         "id": 47,
         "from_node": 26,
-        "to_node": 4
+        "to_node": 10
       },
       {
         "id": 48,
@@ -217,7 +217,7 @@
       {
         "id": 49,
         "from_node": 30,
-        "to_node": 10
+        "to_node": 4
       },
       {
         "id": 50,
@@ -227,7 +227,7 @@
       {
         "id": 51,
         "from_node": 34,
-        "to_node": 10
+        "to_node": 4
       },
       {
         "id": 52,
@@ -237,12 +237,12 @@
       {
         "id": 53,
         "from_node": 38,
-        "to_node": 4
+        "to_node": 7
       },
       {
         "id": 54,
         "from_node": 40,
-        "to_node": 4
+        "to_node": 10
       },
       {
         "id": 55,
@@ -264,84 +264,84 @@
         "node": 20,
         "status": 1,
         "type": 1,
-        "p_specified": 97300.0
+        "p_specified": 108900.0
       },
       {
         "id": 23,
         "node": 22,
         "status": 1,
         "type": 1,
-        "p_specified": 191000.0
+        "p_specified": 75900.0
       },
       {
         "id": 25,
         "node": 24,
         "status": 1,
         "type": 1,
-        "p_specified": 121600.0
+        "p_specified": 14700.0
       },
       {
         "id": 27,
         "node": 26,
         "status": 1,
         "type": 1,
-        "p_specified": 157300.0
+        "p_specified": 167200.0
       },
       {
         "id": 29,
         "node": 28,
         "status": 1,
         "type": 1,
-        "p_specified": 21700.0
+        "p_specified": 159700.0
       },
       {
         "id": 31,
         "node": 30,
         "status": 1,
         "type": 1,
-        "p_specified": 111300.0
+        "p_specified": 40100.0
       },
       {
         "id": 33,
         "node": 32,
         "status": 1,
         "type": 1,
-        "p_specified": 71600.0
+        "p_specified": 153700.0
       },
       {
         "id": 35,
         "node": 34,
         "status": 1,
         "type": 1,
-        "p_specified": 189400.0
+        "p_specified": 154000.0
       },
       {
         "id": 37,
         "node": 36,
         "status": 1,
         "type": 1,
-        "p_specified": 107000.0
+        "p_specified": 87000.0
       },
       {
         "id": 39,
         "node": 38,
         "status": 1,
         "type": 1,
-        "p_specified": 53300.0
+        "p_specified": 24400.0
       },
       {
         "id": 41,
         "node": 40,
         "status": 1,
         "type": 1,
-        "p_specified": 146400.0
+        "p_specified": 63300.0
       },
       {
         "id": 43,
         "node": 42,
         "status": 1,
         "type": 1,
-        "p_specified": 66500.0
+        "p_specified": 34600.0
       }
     ],
     "asym_load": [],

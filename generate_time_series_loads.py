@@ -101,9 +101,10 @@ def generate_random_profile(num_steps, category, has_solar=False, has_battery=Fa
             val = round(random.uniform(0, 20), 1)
             values.append(val)
 
+    # We won't generate random values for "total_electricity" here,
+    # because we'll compute that as facility + generation + storage.
     elif category == "total_electricity":
-        # If you want an actual sum of the above, do it outside. 
-        # For now, just zero or dummy data.
+        # Just return placeholder zeros; we'll overwrite outside.
         values = [0.0]*num_steps
 
     else:
@@ -114,7 +115,7 @@ def generate_random_profile(num_steps, category, has_solar=False, has_battery=Fa
 
 def generate_time_series_loads(
     building_ids,
-    categories=("heating","cooling","facility","generation","battery_charge","total_electricity"),
+    categories=("heating","cooling","facility","generation","battery_charge","storage","total_electricity"),
     start_time="2025-01-01 00:00:00",
     end_time="2025-01-01 06:00:00",
     step_minutes=15,
@@ -133,6 +134,8 @@ def generate_time_series_loads(
         }
     then we can produce generation or battery load only for those that have solar/battery.
     Otherwise, we default to random or 0 as needed.
+
+    IMPORTANT: total_electricity = facility + generation + storage
     """
     print(f"[generate_time_series_loads] Generating time-series loads for {len(building_ids)} buildings.")
 
@@ -145,18 +148,41 @@ def generate_time_series_loads(
 
     # 3) Prepare rows
     rows = []
+
     for b_id in building_ids:
-        # If we have building-level info:
+        # Determine if building has solar/battery
         has_solar = False
         has_battery = False
         if buildings_info and b_id in buildings_info:
             has_solar = bool(buildings_info[b_id].get("has_solar", False))
             has_battery = bool(buildings_info[b_id].get("has_battery", False))
 
+        # First, generate random values for all categories except total_electricity.
+        # We'll store them in a dict so we can compute total_electricity afterward.
+        cat_profiles = {}
+
         for cat in categories:
-            # Generate random profile
-            cat_values = generate_random_profile(num_steps, cat, has_solar, has_battery)
-            row = [b_id, cat] + cat_values
+            if cat != "total_electricity":
+                cat_profiles[cat] = generate_random_profile(num_steps, cat, has_solar, has_battery)
+
+        # Compute total_electricity as facility + generation + storage
+        # (only if these categories exist in cat_profiles)
+        total_vals = [0.0]*num_steps
+        if "facility" in cat_profiles and "generation" in cat_profiles and "storage" in cat_profiles:
+            for i in range(num_steps):
+                total_vals[i] = (cat_profiles["facility"][i]
+                                 + cat_profiles["generation"][i]
+                                 + cat_profiles["storage"][i])
+        else:
+            # If any of them is missing, we just leave total_electricity as all zeros
+            pass
+
+        # Now store that into cat_profiles
+        cat_profiles["total_electricity"] = total_vals
+
+        # Finally, write one row per category
+        for cat in categories:
+            row = [b_id, cat] + cat_profiles[cat]
             rows.append(row)
 
     # 4) Write CSV
@@ -179,7 +205,7 @@ if __name__ == "__main__":
 
     generate_time_series_loads(
         building_ids=test_building_ids,
-        categories=["heating","cooling","facility","generation","battery_charge","total_electricity"],
+        categories=["heating","cooling","facility","generation","battery_charge","storage","total_electricity"],
         start_time="2025-01-01 00:00:00",
         end_time="2025-01-01 06:00:00",
         step_minutes=15,
